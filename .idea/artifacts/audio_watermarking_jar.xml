@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="audio-watermarking:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/audio_watermarking_jar</output-path>
+    <root id="archive" name="audio-watermarking.jar">
+      <element id="module-output" name="audio-watermarking" />
+      <element id="archive" name="watermarkjar" />
+    </root>
+  </artifact>
+</component>
