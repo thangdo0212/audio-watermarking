@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2bdad53-dc4b-4423-a3d7-bf3bf2616ec8" name="Default Changelist" comment="" />
+    <list default="true" id="c2bdad53-dc4b-4423-a3d7-bf3bf2616ec8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Watermarking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Watermarking.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +28,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WCT9kBBdagTjzqy4HvEgdCDcWp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -112,6 +119,9 @@
       <workItem from="1578652428735" duration="378000" />
       <workItem from="1578652829398" duration="142000" />
       <workItem from="1578673607626" duration="3240000" />
+      <workItem from="1578676916628" duration="172000" />
+      <workItem from="1578677109159" duration="11000" />
+      <workItem from="1578759322369" duration="310000" />
     </task>
     <servers />
   </component>
@@ -175,10 +185,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578676116211" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1578673612183">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1578759326303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578673612183" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578759326303" />
     <state x="209" y="109" key="new project wizard" timestamp="1578674871068">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

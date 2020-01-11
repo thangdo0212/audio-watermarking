@@ -6,8 +6,13 @@ import com.utils.CommonUtils;
 import java.io.File;
 
 
+/**
+ * @author Do Tien Thang
+ * @apiNote params is args when run main
+ */
 
 public class Watermarking {
+
   private static final String KEY_W = "-w";
   private static final String KEY_C = "-c";
 
@@ -17,18 +22,12 @@ public class Watermarking {
   private File inputFile;
   private File outputFile;
 
-  /**
-   * Start program from here
-   *
-   * @param args
-   */
   public static void main(String[] args) {
     System.out.println("Java Audio Water Marking Utility v." + LSB.VERSION);
 //    if (checkInput(args)) {
 //
 //    }
     new Watermarking(args).start();
-//    System.out.println("Hello");
   }
 
   /**
@@ -46,15 +45,16 @@ public class Watermarking {
     this.password = "123456789abc";
   }
 
-  /**
-   * Start water marking routine depending from flags
-   */
   public void start() {
     LSB lsb = new LSB();
     switch (key) {
       case KEY_W:
         boolean result = lsb.embedMessage(inputFile, outputFile, msg, -1, password);
-        System.out.println("Watermarking complete!");
+        if (result) {
+          System.out.println("Watermarking complete!");
+        } else {
+          System.out.println("Watermarking fail when compile!");
+        }
         break;
 
       case KEY_C:
